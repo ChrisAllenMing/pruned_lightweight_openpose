@@ -32,7 +32,7 @@
 ## Validation
 
 1. For training-time synchronous validation. Run `CUDA_VISIBLE_DEVICES=<DEVICES_ID> python val_per_epoch.py`
-2. Validation for a specific checkpoint. Run `python val_prune.py --labels <COCO_HOME>/annotations/person_keypoints_val2017.json --images-folder <COCO_HOME>/val2017 --checkpoint-path <CHECKPOINT>`
+2. Validation for a specific checkpoint. Run `python val_prune_oneepoch.py --labels <COCO_HOME>/annotations/person_keypoints_val2017.json --images-folder <COCO_HOME>/val2017 --checkpoint-path <CHECKPOINT>`
 
 ## Pruned model <a name="pruned_model"/>
 
