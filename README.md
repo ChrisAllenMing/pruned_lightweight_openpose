@@ -40,7 +40,7 @@ We provide two pruned models with different compression rate: ./pruned_models/0.
 
 ## Fine-tuned model <a name="fine-tuned_model"/>
 
-The model fine-tuned from the pruned model `./pruned_models/0.3.pth.tar` will come soon. 
+The model fine-tuned from the pruned model `./pruned_models/0.3.pth.tar` is available in `./fine-tuned_models/`. 
 
 ## Unpruned pre-trained model <a name="pre-trained-model"/>
 
