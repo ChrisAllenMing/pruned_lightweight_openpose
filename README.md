@@ -1,5 +1,7 @@
 # A Pruned Version for Lightweight OpenPose
 
+This repository contains channel-pruned models for lightweight OpenPose ([Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf)), and it mainly follows the work of [Daniil Osokin](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch). The channel pruning code is based on our ICCV 2019 submission which will be open-source after accpetance. 
+
 <p align="center">
   <img src="data/preview.jpg" />
 </p>
@@ -40,7 +42,7 @@ We provide two pruned models with different compression rate: ./pruned_models/0.
 
 ## Fine-tuned model <a name="fine-tuned_model"/>
 
-The model fine-tuned from the pruned model `./pruned_models/0.3.pth.tar` will come soon. 
+The model fine-tuned from the pruned model `./pruned_models/0.3.pth.tar` is available in `./fine-tuned_models/`. 
 
 ## Unpruned pre-trained model <a name="pre-trained-model"/>
 
