@@ -1,6 +1,6 @@
 # A Pruned Version for Lightweight OpenPose
 
-This repository contains channel-pruned models for lightweight OpenPose ([Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf)), and it mainly follows the work of [Daniil Osokin](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch). The channel pruning code is based on our ICCV 2019 submission which will be open-source after accpetance. 
+This repository contains channel-pruned models for lightweight OpenPose ([Real-time 2D Multi-Person Pose Estimation on CPU: Lightweight OpenPose](https://arxiv.org/pdf/1811.12004.pdf)), and it mainly follows the work of [Daniil Osokin](https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch). The channel pruning code is based on our ICCV 2019 submission which will be open-source after acceptance. 
 
 <p align="center">
   <img src="data/preview.jpg" />
