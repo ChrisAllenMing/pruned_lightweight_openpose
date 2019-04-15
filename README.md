@@ -12,6 +12,7 @@ This repository contains channel-pruned models for lightweight OpenPose ([Real-t
 * [Prerequisites](#prerequisites)
 * [Training](#training)
 * [Validation](#validation)
+* [Demo](#demo)
 * [Pruned model](#pruned_model)
 * [Fine-tuned model](#fine-tuned_model)
 * [Unpruned pre-trained model](#pre-trained-model)
@@ -35,6 +36,9 @@ This repository contains channel-pruned models for lightweight OpenPose ([Real-t
 
 1. For training-time synchronous validation. Run `CUDA_VISIBLE_DEVICES=<DEVICES_ID> python val_per_epoch.py`
 2. Validation for a specific checkpoint. Run `python val_prune_oneepoch.py --labels <COCO_HOME>/annotations/person_keypoints_val2017.json --images-folder <COCO_HOME>/val2017 --checkpoint-path <CHECKPOINT>`
+
+## Demo
+1. For a simple demo. Run `python demo.py --checkpoint-path ./fine-tuned_models/<CHECKPOINT> --images <YOUR_IMAGE>`
 
 ## Pruned model <a name="pruned_model"/>
 
